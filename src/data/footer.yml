@@ -7,7 +7,7 @@ about:
   actions:
   - label: Learn More
     url: "/donate"
-    is_primary: true
+    is_primary: false
     is_scrolly: false
 contact_methods:
   enabled: true
