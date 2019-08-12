@@ -12,6 +12,6 @@ menus:
   main:
     title: Contact
     weight: 4
-template: page
+template: contact
 
 ---

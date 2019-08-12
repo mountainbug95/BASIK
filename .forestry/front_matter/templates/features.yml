@@ -36,17 +36,6 @@ fields:
       name: icon
       label: Icon
       description: Font Awesome icon
-    - type: select
-      name: style
-      label: Iconn Style
-      description: Controls the icon color
-      config:
-        source:
-          type: custom
-        options:
-        - style1
-        - style2
-        - style3
   - type: textarea
     name: description
     label: Feature Description
