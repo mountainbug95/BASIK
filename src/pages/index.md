@@ -32,8 +32,8 @@ sections:
       enabled: true
       icon: fa-wrench
       style: style3
-    description: Allowing people to expand upon their skills so that they may continue to make
-      their community a better place.
+    description: Allowing people to expand upon their skills so that they may continue
+      to make their community a better place.
   component: Features
 - type: cta
   template: cta
@@ -60,8 +60,8 @@ sections:
 - type: posts
   template: posts
   section_id: posts
-  title: Convallis amet interdum
-  subtitle: Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.
+  title: Our Stories
+  subtitle: Learn more about the people you will be helping.
   component: Posts
 menus:
   main:
