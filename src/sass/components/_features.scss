@@ -26,15 +26,16 @@
 
 				&:before {
 					border-radius: 100%;
-					border: solid (_size(border-width) * 2);
-					font-size: 1.25em;
+					font-size: 1.35em;
 					height: 2.5em;
 					left: 0;
 					line-height: 2.25em;
 					position: absolute;
 					text-align: center;
-					top: 0;
+					top: -0.8em;
 					width: 2.5em;
+					background-color: #46a532;
+					color: white !important;
 				}
 			}
 

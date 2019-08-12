@@ -5,7 +5,7 @@ banner:
   subtitle: Improving communities and lives for people in Kenya
   actions:
   - label: Learn More
-    url: "/no-sidebar"
+    url: "/donate"
     is_primary: false
     is_scrolly: false
     is_huge: true
@@ -17,22 +17,22 @@ sections:
   - title: Food
     icon:
       enabled: true
-      icon: fas fa-carrot
+      icon: fa-leaf
       style: style3
-    description: Helping kenyan families provide for their families.
+    description: Helping the Kenyan people provide for their families.
   - title: Development
     icon:
       enabled: true
-      icon: fa-hammer
+      icon: fa-cogs
       style: style3
     description: Providing people with the resources they need to further develop
       their communities.
   - title: Growth
     icon:
       enabled: true
-      icon: fa-smile
+      icon: fa-wrench
       style: style3
-    description: Allowing people to expand upon their skills so that they may make
+    description: Allowing people to expand upon their skills so that they may continue to make
       their community a better place.
   component: Features
 - type: cta

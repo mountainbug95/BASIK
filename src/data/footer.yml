@@ -2,7 +2,7 @@
 about:
   enabled: true
   title: Give Today
-  text: Aid in the development of communists and lives for the people of Kenya by
+  text: Aid in the development of communities and lives for the people of Kenya by
     donating today.
   actions:
   - label: Learn More
@@ -29,6 +29,12 @@ contact_methods:
     icon: fa-envelope-o
     text: information@untitled.tld
     url: "#"
+  - type: contact_with_link
+    template: contact_with_link
+    title: Facebook
+    icon: fa-facebook
+    text: information@untitled.tld
+    url: "https://www.facebook.com/brothersandsistersinkenya/"
 copyright:
   enabled: true
   text: "&copy; Brothers and Sisters in Kenya. All rights reserved."
