@@ -91,11 +91,11 @@ fields:
   config:
     required: true
 pages:
-- src/pages/posts/post-01.md
-- src/pages/posts/post-02.md
-- src/pages/posts/post-06.md
-- src/pages/posts/post-03.md
-- src/pages/posts/post-04.md
-- src/pages/posts/post-05.md
-- src/pages/posts/post-07.md
 - src/pages/posts/post-08.md
+- src/pages/posts/post-07.md
+- src/pages/posts/post-05.md
+- src/pages/posts/post-04.md
+- src/pages/posts/post-03.md
+- src/pages/posts/post-06.md
+- src/pages/posts/post-02.md
+- src/pages/posts/post-01.md

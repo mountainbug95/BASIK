@@ -63,9 +63,5 @@ fields:
   config:
     required: true
 pages:
-- src/pages/no-sidebar.md
-- src/pages/history.md
-- src/pages/left-sidebar.md
-- src/pages/terms.md
-- src/pages/privacy.md
 - src/pages/contact.md
+- src/pages/history.md
