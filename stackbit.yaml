@@ -555,7 +555,6 @@ models:
     type: data
     file: menus.json
     label: Site Menus
-    labelField: null
     description: >-
       Site menus model, defines list of menus that can be specified from within
       site configuration
@@ -614,7 +613,6 @@ models:
   page_menus:
     type: object
     label: Page Menus
-    labelField: null
     description: 'Page menus model, defines menus that can be specified from within pages'
     fields:
       - type: page_menu_item
