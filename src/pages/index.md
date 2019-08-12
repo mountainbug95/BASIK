@@ -17,7 +17,7 @@ sections:
   - title: Food
     icon:
       enabled: true
-      icon: fa-carrot
+      icon: fas fa-carrot
       style: style3
     description: Helping kenyan families provide for their families.
   - title: Development
