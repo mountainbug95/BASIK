@@ -6,8 +6,8 @@ about:
     donating today.
   actions:
   - label: Learn More
-    url: "/no-sidebar"
-    is_primary: false
+    url: "/donate"
+    is_primary: true
     is_scrolly: false
 contact_methods:
   enabled: true
@@ -34,7 +34,7 @@ contact_methods:
     title: Facebook
     icon: fa-facebook
     text: information@untitled.tld
-    url: "https://www.facebook.com/brothersandsistersinkenya/"
+    url: https://www.facebook.com/brothersandsistersinkenya/
 copyright:
   enabled: true
   text: "&copy; Brothers and Sisters in Kenya. All rights reserved."
