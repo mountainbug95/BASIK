@@ -2,7 +2,7 @@
 title: Our History
 content_img:
   url: "#"
-  enabled: false
+  enabled: true
   path: "/images/pic_20.jpg"
 sidebar:
   side: left
