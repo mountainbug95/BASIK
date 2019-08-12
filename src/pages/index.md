@@ -5,9 +5,9 @@ banner:
   subtitle: Improving communities and lives for people in Kenya
   actions:
   - label: Learn More
-    url: "/donate"
+    url: "#features "
     is_primary: false
-    is_scrolly: false
+    is_scrolly: true
     is_huge: true
 sections:
 - type: features
