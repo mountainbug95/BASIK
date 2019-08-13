@@ -1,8 +1,11 @@
 ---
 title: Our Operation
 subtitle: How we are helping the people of Kenya to better their lives.
-content_img:
+content_video:
   enabled: true
+  url: "https://www.youtube.com/embed/EnzSH1l1OVQ"
+content_img:
+  enabled: false
   path: "/images/pic_17.jpg"
   url: "#"
 sidebar:

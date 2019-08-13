@@ -17,6 +17,21 @@ fields:
     schema:
       format: markdown
 - type: field_group
+  name: content_video
+  label: Content Video
+  description: The video displayed above the page content
+  fields:
+  - type: boolean
+    name: enabled
+    label: Display Content Video
+    description: Displays the page content video
+    default: false
+  - type: text
+    name: url
+    label: Video URL
+    description: The embed link to a YouTube video
+    default: "#"
+- type: field_group
   name: content_img
   label: Content Image
   description: The image displayed above the page content

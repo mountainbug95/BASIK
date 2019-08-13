@@ -17,6 +17,11 @@ export default class Page extends React.Component {
                             {markdownify(_.get(this.props, 'pageContext.frontmatter.subtitle'))}
                         </header>
                         <div className="content">
+
+                            {_.get(this.props, 'pageContext.frontmatter.content_video.enabled') &&
+                            <iframe className="content-video" width="560" height="315" src={_.get(this.props, 'pageContext.frontmatter.content_video.url')} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                            }
+
                             {_.get(this.props, 'pageContext.frontmatter.content_img.enabled') && 
                                 <Link to={safePrefix(toUrl(this.props.pageContext.pages, _.get(this.props, 'pageContext.frontmatter.content_img.url')))} className="image fit"><img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.content_img.path'))} alt="" /></Link>
                             }
