@@ -22,20 +22,16 @@ export default class Page extends React.Component {
                             }
                             {htmlToReact(_.get(this.props, 'pageContext.html'))}
                         </div>
-                        
-                        
+                        {_.get(this.props, 'pageContext.frontmatter.contact_form.enabled') &&
                         <section>
-                            <form method="post" action="#">
+                            <form method="post" action="https://formspree.io/tennesseewebdeveloper@gmail.com">
+                                <input type="text" name="_gotcha" style={{display:'none'}} />
                                 <div className="row gtr-uniform gtr-50">
                                     <div className="col-6 col-12-xsmall">
-                                        <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+                                        <input type="text" name="demo-name" id="demo-name" placeholder="Name" />
                                     </div>
                                     <div className="col-6 col-12-xsmall">
-                                        <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-                                    </div>
-                                    <div className="col-6 col-12-small">
-                                        <input type="checkbox" id="demo-copy" name="demo-copy"/>
-                                        <label htmlFor="demo-copy">Email me a copy</label>
+                                        <input type="email" name="_replyto" id="demo-email" placeholder="Email" />
                                     </div>
                                     <div className="col-12">
                                         <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6" />
@@ -49,8 +45,7 @@ export default class Page extends React.Component {
                                 </div>
                             </form>
                         </section>
-                        
-                        
+                        }
                         {_.get(this.props, 'pageContext.frontmatter.sidebar.enabled') && 
                             <div className="sidebar">
                                 {

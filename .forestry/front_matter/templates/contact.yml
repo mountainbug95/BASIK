@@ -17,6 +17,15 @@ fields:
     schema:
       format: markdown
 - type: field_group
+  name: contact_form
+  label: Contact Form
+  fields:
+  - type: boolean
+    name: enabled
+    label: Display Content Video
+    description: Displays the page contact form
+    default: false
+- type: field_group
   name: content_video
   label: Content Video
   description: The video displayed above the page content
@@ -78,4 +87,4 @@ fields:
   config:
     required: true
 pages:
-- src/pages/history.md
+- src/pages/contact.md
