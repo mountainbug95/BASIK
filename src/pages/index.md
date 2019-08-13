@@ -41,7 +41,7 @@ sections:
   title: How do we do this?
   actions:
   - label: Learn More
-    url: "/contact"
+    url: "/operation"
     is_primary: false
     is_scrolly: false
   text: We at Brothers and Sisters in Kenya are a Christian network passionate about

@@ -78,5 +78,5 @@ fields:
   config:
     required: true
 pages:
-- src/pages/contact.md
 - src/pages/history.md
+- src/pages/contact.md
