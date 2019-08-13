@@ -3,7 +3,6 @@ title: Contact
 subtitle: Feel free to contact us if you have any questions.
 contact_form:
   enabled: true
-  email: "smithtn2@etsu.edu"
 content_img:
   enabled: false
   path: images/pic10.jpg
